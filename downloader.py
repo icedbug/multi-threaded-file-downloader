@@ -5,9 +5,9 @@ from tqdm import tqdm
 import time
 
 # Define the URL and the number of threads
-url = "https://samples.vx-underground.org/tmp/Families.7z"
+url = "" 
 num_threads = 4
-download_dir = "E:\\downloaded_files"
+download_dir = ""
 
 # Create a directory for downloads if it doesn't exist
 if not os.path.exists(download_dir):
